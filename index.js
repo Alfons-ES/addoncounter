@@ -26,3 +26,8 @@ function reset() {
     countMain = 0
     document.getElementById("addon-btn").textContent = "Add"
 }
+
+window.addon = addon
+window.increment = increment
+window.reduce = reduce
+window.reset = reset
